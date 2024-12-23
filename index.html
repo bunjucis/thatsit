@@ -14,8 +14,8 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #1a1a1a;
-      color: #fff;
+      background-color: #000; /* Black background */
+      color: #f1f1f1; /* Soft off-white text */
       text-align: center;
     }
 
@@ -25,7 +25,7 @@
       letter-spacing: 8px;
       margin: 0;
       text-transform: uppercase;
-      color: #000; /* Pitch black font */
+      color: #f1f1f1; /* Soft off-white for heading */
     }
 
     p {
@@ -33,13 +33,13 @@
       font-weight: 400;
       margin-top: 20px;
       letter-spacing: 2px;
-      text-transform: none;
+      color: #d3d3d3; /* Softer grey for paragraph */
     }
 
     footer {
       font-size: 18px;
       margin-top: 30px;
-      color: #aaa;
+      color: #aaa; /* Softer grey footer text */
     }
 
     footer a {
@@ -49,19 +49,20 @@
     }
 
     footer a:hover {
-      color: #fff;
+      color: #f1f1f1; /* Hover effect for footer text */
     }
 
     .logo {
-      width: 300px; /* Twice as big as before */
+      width: 300px; /* Logo size */
       height: auto;
       margin-bottom: 30px;
+      filter: grayscale(100%); /* Apply black effect to the logo */
     }
   </style>
 </head>
 <body>
 
-  <img src="logo_png_white.png" alt="logo" class="logo"> <!-- Updated file name -->
+  <img src="logo_png_white.png" alt="logo" class="logo"> <!-- Logo file name -->
   <h1>coming soon</h1>
   <p>or is it? ever?</p>
   <footer><a href="#">© 2024 nothing is reserved</a></footer>
